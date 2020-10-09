@@ -20,7 +20,7 @@ function Chat() {
     useEffect(() => {
         if( roomId){
             db.collection("rooms").doc(roomId).onSnapshot(snapshot => 
-                setRoomName(snapshot.data().name)); // pull roomname and display it on chat header
+                setRoomName(snapshot.data()?.name )); // pull roomname and display it on chat header
                 
             db.collection("rooms").doc(roomId).collection('messages').orderBy('timestamp', 'asc').onSnapshot((snapshot) => (
                 setMessages(snapshot.docs.map(doc => doc.data()))

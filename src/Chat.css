@@ -49,11 +49,14 @@
     width: fit-content;
     margin-bottom: 30px;
     background-color: #ffffff;
+    color: black;
+
 
 }
 .chat__reciever {
     margin-left: auto;
     background-color: #9ea3df;
+    
 }
 
 
@@ -63,6 +66,8 @@
     font-size: xx-small;
     font-weight: 800;
 }
+
+
 
 .chat__timestamp {
     margin-left: 10px;

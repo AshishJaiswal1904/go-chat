@@ -1,16 +1,17 @@
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 import firebase from "firebase";
 
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyA-aAHUQKl0dL9lEEjTDPi3rRReHkW8PXk",
-    authDomain: "go-chat-ef664.firebaseapp.com",
-    databaseURL: "https://go-chat-ef664.firebaseio.com",
-    projectId: "go-chat-ef664",
-    storageBucket: "go-chat-ef664.appspot.com",
-    messagingSenderId: "126215910136",
-    appId: "1:126215910136:web:98b2169fb5898acabbc10d",
-    measurementId: "G-MY5DZ7FQR9"
-  };
+  apiKey: "AIzaSyBPUakK0H4QPMru6AjHvbwOBMfSFMKFPtw",
+  authDomain: "gochat-84ebc.firebaseapp.com",
+  databaseURL: "https://gochat-84ebc.firebaseio.com",
+  projectId: "gochat-84ebc",
+  storageBucket: "gochat-84ebc.appspot.com",
+  messagingSenderId: "905500932106",
+  appId: "1:905500932106:web:da5e9489622388d4f247f3",
+  measurementId: "G-ZPY27TY3Q0"
+};
 
   const firebaseApp = firebase.initializeApp(firebaseConfig);
 
@@ -20,3 +21,4 @@ const firebaseConfig = {
 
   export {auth, provider};
   export default db;
+ 
